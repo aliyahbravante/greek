@@ -1,51 +1,114 @@
 *{
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Fantasy, Helvetica, sans-serif;
 }
-.banner{
-  width: 100%;
-  height: 100vh;
-  background-image:url('greek.jpg');
-  background-size: cover;
-  background-position: center;
+.fl{float: left;}
+.fr{float: right;}
+.content{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Olympus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.navbar{
-  width: 85%;
-  margin: auto;
-  padding: 35px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.header{
+    width: 100%;
+    height: 100vh;
+}
+.sub-header{
+    width: 100%;
+    background-color: #3f301d;
+    position: fixed;
+    top: 0;
+}
+.top-header{
+    width: 95%;
+    height: 80px;
+    margin: auto;
 }
 .logo{
-  width: 50px;
-  cursor: pointer;
+    width: 30%;
 }
-.navbar ul li{
-  list-style: none;
-  display: inline-block;
-  margin: 0 20px;
+.logo p{
+    padding: 15px 5% 0 0;
+    font-size: 30px;
+    color: #fff8dc;
+    font-weight: bold;
 }
-.navbar ul li a{
-  text-decoration: none;
-  color: #fff;
-  text-transform: uppercase;
-.content{
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  text-align: center;
-  color: #fff;
+.logo p span{color: white;}
+.logo h3{
+    color: black;
+    font-size: 10px;
+    margin-left: 5%;
 }
-.content h1{
-  font-size: 70px;
-  margin-top: 80px;
+.nav{
+    width: 70%;
+    margin-top: 10px;
 }
-.content p{
-  margin: 20px auto;
-  font-weight: 100;
-  line-height:25px;
+.nav ul{
+    text-align: right;
+    margin-top: 20px;
 }
-  
+.nav ul li{
+    display: inline;
+    margin-left: 3%;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 15px 1%;
+    font-size: 16px;
+    color: #fff;
+}
+.nav ul li a:hover{color: #fff8dc;}
+.home{color: #ff2855;}
+.bttm{
+    width: 80%;
+    margin: auto;
+}
+.btn-head{
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 50%;
+    justify-content: center;
+}
+.btn-head h1{
+    text-align: left;
+    align-items: center;
+    color: #9a7b4f;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.btn-head h1 span{
+  color: #cc7722;
+}
+.btn-head h5{
+    text-align: right;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: rgb(230, 230, 230);
+    font-weight: bold;
+    margin-top: 40px;
+}
+.btn{
+    width: 45%;
+    height: 50px;
+    background-color: #fff8dc;
+    margin-left: 25%;
+    margin-top: 25px;
+    border-radius: 25px;
+    color: black;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #3f301d;
+    color: white;
+}
+.btn p{
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+}
